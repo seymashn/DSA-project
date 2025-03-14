@@ -3,7 +3,7 @@
 
 This project aims to compare movie ratings from **IMDb** and **Rotten Tomatoes** to analyze how different these platforms rate the same films. The analysis will be done using **Python**, focusing on data collection, visualization, and statistical comparison. The results will be visualized through scatter plots and box plots.
 
-## 📊 Datasets
+## Datasets
 
 The data will be collected from:
 - **IMDb API / Web Scraping**: For movie ratings, genres, directors, and user reviews.
@@ -11,7 +11,7 @@ The data will be collected from:
 
 Data will be gathered using **web scraping** and **APIs**, depending on availability.
 
-## 🛠️ Technological Choices
+## Technological Choices
 
 The project will be developed entirely in **Python**, using the following libraries:
 
@@ -22,7 +22,7 @@ The project will be developed entirely in **Python**, using the following librar
 - **Statistical Analysis Techniques**: Correlation analysis and hypothesis testing will be performed to measure the relationship between the scores of the two platforms.
 
 
-## 📥 Data Collection Plan
+## Data Collection Plan
 
 - **Collecting Data from the Web**: If direct access is not possible, film scores and details will be compiled from relevant web pages.
 - **Obtaining Data from Official Sources**: Data access methods provided by relevant platforms will be used to obtain structured film score data.
@@ -30,7 +30,7 @@ The project will be developed entirely in **Python**, using the following librar
 
 All data collection steps will be documented, ensuring reproducibility.
 
-## 🔎 Project Plan
+## Project Plan
 
 1. **Identify Data Sources**: IMDb and Rotten Tomatoes rating data sources will be identified.
 2. **Data Collection and Cleaning**: The data will be collected using web scraping and API requests.
@@ -41,7 +41,7 @@ All data collection steps will be documented, ensuring reproducibility.
    - **Correlation Analysis**: Finding relationships between ratings from both platforms.
 5. **Evaluation of Results**: Insights will be extracted, and a report will be generated.
 
-## 🖥️ Code Requirements
+## Code Requirements
 
 - All code will be written in **Python**.
 - The code must be well-documented with comments.
