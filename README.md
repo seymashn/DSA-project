@@ -47,7 +47,7 @@ All data collection steps will be documented, ensuring reproducibility.
 - The code must be well-documented with comments.
 - A `requirements.txt` file will list all necessary dependencies. 
 
-## 📌 Dependencies
+## Dependencies
 
 A `requirements.txt` file will be included with the following dependencies:
 
