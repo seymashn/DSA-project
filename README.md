@@ -1,53 +1,53 @@
 # DSA-project
+# IMDb vs. Rotten Tomatoes: A Comparative Analysis
 
-This project is a project for the upcoming DSA (Data Structures and Algorithms) course. The project will be implemented using **Python**. The datasets to be used and the methods to be applied are still being determined. This README file provides the basic information about the project and outlines the upcoming steps.
+This project aims to compare movie ratings from **IMDb** and **Rotten Tomatoes** to analyze how different these platforms rate the same films. The analysis will be done using **Python**, focusing on data collection, visualization, and statistical comparison. The results will be visualized through scatter plots and box plots.
 
-## Datasets
+## 📊 Datasets
 
-The data will be obtained from specific dataset or source, if not specified, "various open data sources". Currently, work is being done on determining the contents of the dataset and how it will be collected. Potential data sources include:
+The data will be collected from:
+- **IMDb API / Web Scraping**: For movie ratings, genres, directors, and user reviews.
+- **Rotten Tomatoes API / Web Scraping**: For critic scores, audience scores, and additional movie metadata.
 
-- Web scraping
-- APIs
-- Open datasets
+Data will be gathered using **web scraping** and **APIs**, depending on availability.
 
-These options will be explored.
+## 🛠️ Technological Choices
 
-## Technological Choices
+The project will be developed entirely in **Python**, using the following libraries:
 
-The project will be carried out solely using the **Python** programming language. Python is preferred due to its powerful libraries and tools for data analysis and processing. The main libraries that might be used include:
+- **Pandas**: For data manipulation and analysis.
+- **NumPy**: For numerical computations.
+- **Visualization Tools**: Scatter plots, box plots, and histograms will be created to show data distribution.
+- **Data Collection Methods**: In cases where API access is insufficient, data extraction methods will be used to retrieve movie scores and related information from web pages.
+- **Statistical Analysis Techniques**: Correlation analysis and hypothesis testing will be performed to measure the relationship between the scores of the two platforms.
 
-- **Pandas**: For data manipulation and analysis
-- **NumPy**: For numerical computations
-- **Matplotlib/Seaborn**: For data visualization
-- **Requests/BeautifulSoup**: For web scraping (if data collection is required)
-- **scikit-learn**: For machine learning and modeling (if the project involves machine learning)
 
-## Data Collection Plan
+## 📥 Data Collection Plan
 
-The following methods will be considered for data collection:
+- **Collecting Data from the Web**: If direct access is not possible, film scores and details will be compiled from relevant web pages.
+- **Obtaining Data from Official Sources**: Data access methods provided by relevant platforms will be used to obtain structured film score data.
+- **Using Existing Datasets**: If ready-made datasets that are openly accessible are found, they will be included in the analysis process to provide additional information.
 
-- **Web Scraping**: Data may be collected from specific websites using tools like `BeautifulSoup` or `Scrapy`.
-- **API Usage**: Data can be retrieved via APIs. The `Requests` and `json` libraries will be used to make API requests and collect data.
-- **Manual Data Collection**: If open datasets are used, data collection may be done manually.
+All data collection steps will be documented, ensuring reproducibility.
 
-Each method and data source will be documented appropriately.
+## 🔎 Project Plan
 
-## Code Requirements
+1. **Identify Data Sources**: IMDb and Rotten Tomatoes rating data sources will be identified.
+2. **Data Collection and Cleaning**: The data will be collected using web scraping and API requests.
+3. **Exploratory Data Analysis (EDA)**: Descriptive statistics and visualizations will be used to analyze rating distributions.
+4. **Comparison of Ratings**: The following comparisons will be performed:
+   - **Scatter Plot**: IMDb vs. Rotten Tomatoes scores for the same movies.
+   - **Box Plot**: Distribution of ratings across different genres.
+   - **Correlation Analysis**: Finding relationships between ratings from both platforms.
+5. **Evaluation of Results**: Insights will be extracted, and a report will be generated.
+
+## 🖥️ Code Requirements
 
 - All code will be written in **Python**.
-- The code must be well-documented, with comments explaining each function and important steps.
-- All dependencies for the project will be listed in a `requirements.txt` file.
+- The code must be well-documented with comments.
+- A `requirements.txt` file will list all necessary dependencies. 
 
-## Project Plan
+## 📌 Dependencies
 
-1. **Identify Data Sources**: At the beginning of the project, potential data sources will be identified.
-2. **Data Collection and Preparation**: Data will be collected from the selected sources and prepared for analysis.
-3. **Data Analysis and Modeling**: The data will be analyzed, and models will be created if needed.
-4. **Evaluation of Results**: The results obtained will be evaluated, and a report will be generated.
+A `requirements.txt` file will be included with the following dependencies:
 
-## Dependencies
-
-A `requirements.txt` file will be created to list the Python libraries required for the project. This file will contain all the dependencies necessary for the project to run.
-
----
-Since the project topic is still being defined, the details and methodology are under careful consideration and will be finalized in the near future.
