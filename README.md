@@ -1,53 +1,56 @@
 # DSA-project
 # IMDb vs. Rotten Tomatoes: A Comparative Analysis
 
-This project aims to compare movie ratings from **IMDb** and **Rotten Tomatoes** to analyze how different these platforms rate the same films. The analysis will be done using **Python**, focusing on data collection, visualization, and statistical comparison. The results will be visualized through scatter plots and box plots.
+This project aims to compare movie ratings from **IMDb** and **Rotten Tomatoes** to analyse how these platforms rate the same films differently. By collecting and cleaning public movie data, we perform exploratory data analysis and a statistical comparison to evaluate how similar or different the two platforms are in scoring the same films.The analysis will be done using **Python**, focusing on data collection, visualisation, and statistical comparison. The results will be visualised through scatter plots and box plots.
+
+---
 
 ## Datasets
 
-The data will be collected from:
-- **IMDb API / Web Scraping**: For movie ratings, genres, directors, and user reviews.
-- **Rotten Tomatoes API / Web Scraping**: For critic scores, audience scores, and additional movie metadata.
+- **Source**: Publicly available dataset (`movies-250.json`) containing 250 top-rated films.
+- **Fields used**:
+  - `Title`, `Year`, `Genre`, `Director`
+  - `IMDb Rating` (0–10 scale)
+  - `Rotten Tomatoes Score` (0–100 scale)
 
-Data will be gathered using **web scraping** and **APIs**, depending on availability.
+---
 
-## Technological Choices
+## Methodology
 
-The project will be developed entirely in **Python**, using the following libraries:
+### 1. **Data Cleaning**
+- Extracted relevant fields from JSON format.
+- Converted Rotten Tomatoes ratings from percentage strings (e.g., `"91%"`) to floats.
+- Removed movies that were missing either IMDb or RT ratings.
 
-- **Pandas**: For data manipulation and analysis.
-- **NumPy**: For numerical computations.
-- **Visualization Tools**: Scatter plots, box plots, and histograms will be created to show data distribution.
-- **Data Collection Methods**: In cases where API access is insufficient, data extraction methods will be used to retrieve movie scores and related information from web pages.
-- **Statistical Analysis Techniques**: Correlation analysis and hypothesis testing will be performed to measure the relationship between the scores of the two platforms.
+### 2. **Exploratory Data Analysis (EDA)**
+- Visualised IMDb and RT score distributions using histograms.
+- Created scatter plots to show relationships between the two rating systems.
+- Calculated the correlation coefficient between IMDb and RT scores.
 
+### 3. **Statistical Testing**
+- A paired t-test was applied to test whether the average IMDb and RT ratings are statistically different.
+- RT scores were scaled down to match IMDb’s 0–10 scale.
 
-## Data Collection Plan
+---
 
-- **Collecting Data from the Web**: If direct access is not possible, film scores and details will be compiled from relevant web pages.
-- **Obtaining Data from Official Sources**: Data access methods provided by relevant platforms will be used to obtain structured film score data.
-- **Using Existing Datasets**: If ready-made datasets that are openly accessible are found, they will be included in the analysis process to provide additional information.
+## 📌 Key Findings
 
-All data collection steps will be documented, ensuring reproducibility.
+- **IMDb and RT scores are moderately correlated** (~0.7), indicating a general agreement.
+- Several films show a significant rating difference between platforms.
+- **T-test results** suggest that the difference between the two platforms' ratings is **(statistically significant / not significant)** (based on p-value).
+- Most genres follow similar trends, but a deeper genre-based analysis is planned for the next milestone.
 
-## Project Plan
+---
 
-1. **Identify Data Sources**: IMDb and Rotten Tomatoes rating data sources will be identified.
-2. **Data Collection and Cleaning**: The data will be collected using web scraping and API requests.
-3. **Exploratory Data Analysis (EDA)**: Descriptive statistics and visualizations will be used to analyze rating distributions.
-4. **Comparison of Ratings**: The following comparisons will be performed:
-   - **Scatter Plot**: IMDb vs. Rotten Tomatoes scores for the same movies.
-   - **Box Plot**: Distribution of ratings across different genres.
-   - **Correlation Analysis**: Finding relationships between ratings from both platforms.
-5. **Evaluation of Results**: Insights will be extracted, and a report will be generated.
+## 🧪 Technologies Used
 
-## Code Requirements
+- **Python**
+- `pandas`, `numpy`: Data manipulation
+- `matplotlib`, `seaborn`: Visualisation
+- `scipy`: Statistical testing
 
-- All code will be written in **Python**.
-- The code must be well-documented with comments.
-- A `requirements.txt` file will list all necessary dependencies. 
+---
 
-## Dependencies
+## 📁 Project Structure
 
-A `requirements.txt` file will be included with the following dependencies:
 
