@@ -1,7 +1,7 @@
 # DSA-project
 # IMDb vs. Rotten Tomatoes: A Comparative Analysis
 
-This project aims to compare movie ratings from **IMDb** and **Rotten Tomatoes** to analyse how these platforms rate the same films differently. By collecting and cleaning public movie data, we perform exploratory data analysis and a statistical comparison to evaluate how similar or different the two platforms are in scoring the same films.The analysis will be done using **Python**, focusing on data collection, visualisation, and statistical comparison. The results will be visualised through scatter plots and box plots.
+This project aims to compare movie ratings from **IMDb** and **Rotten Tomatoes** to analyse how these platforms rate the same films differently. By collecting and cleaning public movie data, we perform exploratory data analysis and a statistical comparison to evaluate how similar or different the two platforms are in scoring the same films. The analysis will be done using **Python**, focusing on data collection, visualisation, and statistical comparison. The results will be visualised through scatter plots and box plots.
 
 ---
 
@@ -53,4 +53,4 @@ This project aims to compare movie ratings from **IMDb** and **Rotten Tomatoes**
 
 ## 📁 Project Structure
 
-
+[DSA-project.pdf](https://github.com/user-attachments/files/19914316/DSA-project.pdf)
