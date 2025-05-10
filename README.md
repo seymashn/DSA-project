@@ -33,7 +33,7 @@ This project aims to compare movie ratings from **IMDb** and **Rotten Tomatoes**
 
 ---
 
-## 📌 Key Findings
+## Key Findings
 
 - **IMDb and RT scores are moderately correlated** (~0.7), indicating a general agreement.
 - Several films show a significant rating difference between platforms.
@@ -42,7 +42,7 @@ This project aims to compare movie ratings from **IMDb** and **Rotten Tomatoes**
 
 ---
 
-## 🧪 Technologies Used
+## Technologies Used
 
 - **Python**
 - `pandas`, `numpy`: Data manipulation
