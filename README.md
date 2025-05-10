@@ -51,6 +51,6 @@ This project aims to compare movie ratings from **IMDb** and **Rotten Tomatoes**
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 [DSA-project.pdf](https://github.com/user-attachments/files/19914316/DSA-project.pdf)
